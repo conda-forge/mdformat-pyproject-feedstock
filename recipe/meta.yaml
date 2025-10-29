@@ -1,5 +1,5 @@
 {% set name = "mdformat-pyproject" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mdformat_pyproject-{{ version }}.tar.gz
-  sha256: e81eb9d5c25d419cc6745d6deb260d85ab03566a7570c0d99f70255883a99cd8
+  sha256: be16ed754d42db5f5e376ccb9cdbdfefc7750f7f77eadddde37f99ab87272b54
 
 build:
   number: 0
